@@ -3,7 +3,7 @@ owner: Illyricon # Your GitHub organization or username, where this repository l
 repo: mopping.hr-status # The name of this repository
 
 sites:
-  - name: Mopping
+  - name: Mopping.hr
     url: https://mopping.hr
     type: globalping
     location: Zagreb
@@ -15,7 +15,7 @@ status-website:
   cname: status.mopping.hr
   # baseUrl: /mopping.hr-status
   logoUrl: https://mopping.hr/images/logo.svg
-  themeUrl: theme.css
+  themeUrl: https://staus.mopping.hr/theme.css
   name: Mopping.hr
   introTitle: "**Status** za mopping.hr stranicu."
   introMessage: Ovaj status monitor prikazuje podatke u **stvarnom vremenu** 
