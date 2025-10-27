@@ -1,20 +1,20 @@
 [
   {
-    "name": "Mopping",
+    "name": "Mopping.hr",
     "url": "https://mopping.hr",
     "icon": "https://icons.duckduckgo.com/ip3/mopping.hr.ico",
-    "slug": "mopping",
+    "slug": "mopping-hr",
     "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 147,
-    "timeDay": 147,
-    "timeWeek": 147,
-    "timeMonth": 147,
-    "timeYear": 147,
+    "time": 89,
+    "timeDay": 89,
+    "timeWeek": 89,
+    "timeMonth": 89,
+    "timeYear": 89,
     "dailyMinutesDown": {}
   }
 ]
