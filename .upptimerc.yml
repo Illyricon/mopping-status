@@ -5,21 +5,26 @@ repo: mopping.hr-status # The name of this repository
 sites:
   - name: Mopping
     url: https://mopping.hr
-
+    type: globalping
+    location: Zagreb
+assignees: # Users to assign downtime issues (optional)
+  - codedoga
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   baseUrl: /mopping.hr-status
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://mopping.hr/images/logo.svg
   name: Mopping.hr
   introTitle: "**Status** za mopping.hr stranicu."
   introMessage: Ovaj status monitor prikazuje podatke u **stvarnom vremenu** 
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  # navbar:
+  #   - title: Status
+  #     href: /
+  #   - title: GitHub
+  #     href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+i18n:
+  footer: Omogućava Illyricon
