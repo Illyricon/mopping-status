@@ -27,4 +27,64 @@ status-website:
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 i18n:
-  footer: Omogućava Illyricon
+  activeIncidents: Aktivni incidenti
+  allSystemsOperational: Svi sustavi rade ispravno
+  incidentReport: "Izvještaj o incidentu #$NUMBER →"
+  activeIncidentSummary: Otvoren $DATE s $POSTS objava
+  incidentTitle: Detalji incidenta $NUMBER
+  incidentDetails: Detalji incidenta
+  incidentFixed: Riješeno
+  incidentOngoing: U tijeku
+  incidentOpenedAt: Otvoren
+  incidentClosedAt: Zatvoren
+  incidentViewOnGitHub: Pogledaj i pretplati se na GitHubu
+  incidentCommentSummary: Objavljeno $DATE od strane $AUTHOR
+  incidentBack: ← Povratak na sve incidente
+  pastIncidents: Prošli incidenti
+  pastIncidentsResolved: Riješeno u $MINUTES minuta s $POSTS objava
+  liveStatus: Trenutni status
+  overallUptime: "Ukupna dostupnost: $UPTIME"
+  overallUptimeTitle: Ukupna dostupnost
+  averageResponseTime: "Prosječno vrijeme odziva: $TIMEms"
+  averageResponseTimeTitle: Prosječno vrijeme odziva
+  sevelDayResponseTime: Odziv u zadnjih 7 dana
+  responseTimeMs: Vrijeme odziva (ms)
+  up: Dostupno
+  down: Nedostupno
+  degraded: Smanjena funkcionalnost
+  ms: ms
+  loading: Učitavanje
+  navGitHub: GitHub
+  footer: Omogućava [Codedoga](https://codedoga.eu)
+  rateLimitExceededTitle: Prekoračeno ograničenje upita
+  rateLimitExceededIntro: Premašili ste broj zahtjeva koje možete napraviti u jednom satu, pa ćete morati pričekati prije nego ponovno pristupite ovoj stranici. Alternativno, možete dodati GitHub osobni pristupni token za nastavak korištenja stranice.
+  rateLimitExceededWhatDoesErrorMean: Što znači ova pogreška?
+  rateLimitExceededErrorMeaning: Ova web-stranica koristi GitHub API za dohvat aktualnih podataka o statusu naših stranica. Zadano, GitHub dopušta svakoj IP adresi 60 zahtjeva na sat, što ste vi iskoristili.
+  rateLimitExceededErrorHowCanFix: Kako to mogu riješiti?
+  rateLimitExceededErrorFix: Možete pričekati jedan sat kako bi se ograničenje za vašu IP adresu resetiralo. Alternativno, možete dodati svoj GitHub osobni pristupni token, što vam daje dodatnih 5.000 zahtjeva na sat.
+  rateLimitExceededGeneratePAT: Saznajte kako generirati osobni pristupni token
+  rateLimitExceededHasSet: Imate postavljen osobni pristupni token.
+  rateLimitExceededRemoveToken: Ukloni token
+  rateLimitExceededGitHubPAT: GitHub osobni pristupni token
+  rateLimitExceededCopyPastePAT: Kopirajte i zalijepite svoj token
+  rateLimitExceededSaveToken: Spremi token
+  errorTitle: Došlo je do pogreške
+  errorIntro: Dogodila se pogreška pri pokušaju dohvaćanja najnovijeg statusa.
+  errorText: Pokušajte ponovno za nekoliko trenutaka.
+  errorHome: Idi na početnu stranicu
+  pastScheduledMaintenance: Prošla planirana održavanja
+  scheduledMaintenance: Planirana održavanja
+  scheduledMaintenanceSummaryStarted: Započeto $DATE na $DURATION minuta
+  scheduledMaintenanceSummaryStarts: Počinje $DATE na $DURATION minuta
+  startedAt: Započeto
+  startsAt: Počinje
+  duration: Trajanje
+  durationMin: $DURATION minuta
+  incidentCompleted: Završeno
+  incidentScheduled: Zakazano
+  duration24H: 24h
+  duration7D: 7d
+  duration30D: 30d
+  duration1Y: 1g
+  durationAll: sve
+  locale: hr-HR
