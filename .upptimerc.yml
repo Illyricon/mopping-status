@@ -12,8 +12,8 @@ assignees: # Users to assign downtime issues (optional)
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: demo.upptime.js.org
-  baseUrl: /mopping.hr-status
+  cname: status.mopping.hr
+  # baseUrl: /mopping.hr-status
   logoUrl: https://mopping.hr/images/logo.svg
   themeUrl: theme.css
   name: Mopping.hr
