@@ -15,7 +15,7 @@ status-website:
   # cname: demo.upptime.js.org
   baseUrl: /mopping.hr-status
   logoUrl: https://mopping.hr/images/logo.svg
-  themeUrl: /assets/theme.css
+  themeUrl: /mopping.hr-status/theme.css
   name: Mopping.hr
   introTitle: "**Status** za mopping.hr stranicu."
   introMessage: Ovaj status monitor prikazuje podatke u **stvarnom vremenu** 
