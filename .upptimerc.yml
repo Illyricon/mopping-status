@@ -57,7 +57,7 @@ i18n:
   ms: ms
   loading: Učitavanje
   navGitHub: GitHub
-  footer: Omogućava [Codedoga](https://codedoga.eu)
+  footer: Omogućava [codedoga](https://codedoga.eu)
   rateLimitExceededTitle: Prekoračeno ograničenje upita
   rateLimitExceededIntro: Premašili ste broj zahtjeva koje možete napraviti u jednom satu, pa ćete morati pričekati prije nego ponovno pristupite ovoj stranici. Alternativno, možete dodati GitHub osobni pristupni token za nastavak korištenja stranice.
   rateLimitExceededWhatDoesErrorMean: Što znači ova pogreška?
