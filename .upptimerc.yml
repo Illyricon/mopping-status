@@ -3,7 +3,7 @@ owner: Illyricon # Your GitHub organization or username, where this repository l
 repo: mopping-status # The name of this repository
 
 sites:
-  - name: Mopping.hr
+  - name: mopping.hr
     url: https://mopping.hr
     type: globalping
     location: Zagreb
@@ -15,6 +15,7 @@ status-website:
   cname: status.mopping.hr
   # baseUrl: /mopping.hr-status
   favicon: https://mopping.hr/icons/apple-touch-icon.png
+  faviconSvg: https://mopping.hr/images/logo.svg
   logoUrl: https://mopping.hr/images/logo.svg
   themeUrl: https://status.mopping.hr/mptheme.css
   name: mopping.hr
@@ -25,6 +26,15 @@ status-website:
   #     href: /
   #   - title: GitHub
   #     href: https://github.com/$OWNER/$REPO
+
+workflowSchedule:
+  graphs: "5 */2 * * *"
+  responseTime: "0 */2 * * *"
+  staticSite: "10 0 * * 1"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * 1"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
