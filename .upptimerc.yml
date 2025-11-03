@@ -51,7 +51,6 @@ i18n:
   uptimeWeek: 7-dnevni uptime
   uptimeMonth: 30-dnevni uptime
   uptimeYear: 1-godišnji uptime
-  liveStatus: Status uživo
   liveStatusHtmlComment: "<!--status uživo-->"
   responseTimeGraphAlt: Grafikon vremena odziva
   activeIncidents: Aktivni incidenti
