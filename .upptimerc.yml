@@ -14,10 +14,10 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.mopping.hr
   # baseUrl: /mopping.hr-status
-  favicon: https://mopping.hr/favicon.ico
+  favicon: https://mopping.hr/icons/apple-touch-icon.png
   logoUrl: https://mopping.hr/images/logo.svg
   themeUrl: https://status.mopping.hr/mptheme.css
-  name: Mopping.hr
+  name: mopping.hr
   introTitle: "**Status** za mopping.hr stranicu."
   introMessage: Ovaj status monitor prikazuje podatke u **stvarnom vremenu** 
   # navbar:
