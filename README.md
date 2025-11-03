@@ -1,4 +1,4 @@
-# [📈 Trenutni status](https://Illyricon.github.io/mopping.hr-status): <!--live status--> **Svi sustavi rade ispravno**
+# [📈 Trenutni status](https://status.mopping.hr): <!--live status--> **Svi sustavi rade ispravno**
 
 [![Uptime CI](https://github.com/Illyricon/mopping.hr-status/workflows/Uptime%20CI/badge.svg)](https://github.com/Illyricon/mopping.hr-status/actions?query=workflow%3A%22Uptime+CI%22)
 [![Response Time CI](https://github.com/Illyricon/mopping.hr-status/workflows/Response%20Time%20CI/badge.svg)](https://github.com/Illyricon/mopping.hr-status/actions?query=workflow%3A%22Response+Time+CI%22)
@@ -16,4 +16,4 @@
 
 <!--end: status pages-->
 
-[**Visit our status website →**](https://status.mopping.hr)
+[**Posjeti status stranicu →**](https://status.mopping.hr)
