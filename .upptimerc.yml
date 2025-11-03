@@ -27,6 +27,9 @@ status-website:
   #   - title: GitHub
   #     href: https://github.com/$OWNER/$REPO
 
+skipDescriptionUpdate: true
+skipPoweredByReadme: true
+
 workflowSchedule:
   graphs: "5 */2 * * *"
   responseTime: "0 */2 * * *"
@@ -39,6 +42,18 @@ workflowSchedule:
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 i18n:
+  url: URL
+  status: Status
+  history: Povijest
+  responseTime: Vrijeme odziva
+  uptime: uptime
+  uptimeDay: 24-satni uptime
+  uptimeWeek: 7-dnevni uptime
+  uptimeMonth: 30-dnevni uptime
+  uptimeYear: 1-godišnji uptime
+  liveStatus: Status uživo
+  liveStatusHtmlComment: "<!--status uživo-->"
+  responseTimeGraphAlt: Grafikon vremena odziva
   activeIncidents: Aktivni incidenti
   allSystemsOperational: Svi sustavi rade ispravno
   incidentReport: "Izvještaj o incidentu #$NUMBER →"
@@ -59,8 +74,12 @@ i18n:
   overallUptimeTitle: Ukupna dostupnost
   averageResponseTime: "Prosječno vrijeme odziva: $TIMEms"
   averageResponseTimeTitle: Prosječno vrijeme odziva
-  sevelDayResponseTime: Odziv u zadnjih 7 dana
+  sevenDayResponseTime: Odziv u zadnjih 7 dana
   responseTimeMs: Vrijeme odziva (ms)
+  responseTimeDay: 24-satno vrijeme odziva
+  responseTimeWeek: 7-dnevno vrijeme odziva
+  responseTimeMonth: 30-dnevno vrijeme odziva
+  responseTimeYear: 1-godišnje vrijeme odziva
   up: Dostupno
   down: Nedostupno
   degraded: Smanjena funkcionalnost
@@ -99,4 +118,7 @@ i18n:
   duration30D: 30d
   duration1Y: 1g
   durationAll: sve
+  degradedPerformance: "🟨 Degradirane performanse"
+  completeOutage: "🟥 Potpuni prekid"
+  partialOutage: "🟧 Djelomični prekid"
   locale: hr-HR
