@@ -73,7 +73,7 @@ i18n:
   overallUptimeTitle: Ukupna dostupnost
   averageResponseTime: "Prosječno vrijeme odziva: $TIMEms"
   averageResponseTimeTitle: Prosječno vrijeme odziva
-  sevenDayResponseTime: Odziv u zadnjih 7 dana
+  sevelDayResponseTime: Odziv u zadnjih 7 dana
   responseTimeMs: Vrijeme odziva (ms)
   responseTimeDay: 24-satno vrijeme odziva
   responseTimeWeek: 7-dnevno vrijeme odziva
