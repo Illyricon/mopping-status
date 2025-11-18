@@ -4,17 +4,19 @@
     "url": "https://mopping.hr",
     "icon": "https://icons.duckduckgo.com/ip3/mopping.hr.ico",
     "slug": "mopping-hr",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 113,
-    "timeDay": 116,
+    "time": 112,
+    "timeDay": 112,
     "timeWeek": 114,
-    "timeMonth": 113,
-    "timeYear": 113,
-    "dailyMinutesDown": {}
+    "timeMonth": 112,
+    "timeYear": 112,
+    "dailyMinutesDown": {
+      "2025-11-18": 0
+    }
   }
 ]
