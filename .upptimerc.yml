@@ -5,6 +5,8 @@ runner: ubuntu-latest
 sites:
   - name: mopping.hr
     url: https://mopping.hr
+    type: globalping
+    location: Zagreb+HR
 
 assignees: # Users to assign downtime issues (optional)
   - codedoga
